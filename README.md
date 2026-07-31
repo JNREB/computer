@@ -60,6 +60,9 @@ public surface. Each is a Worker workspace with its own README.
 - [`examples/worker-javascript`](examples/worker-javascript) — mirrors
   `worker-shell`, but `exec` evaluates an ECMAScript module in a Dynamic
   Worker instead of running a shell command.
+- [`examples/mcp`](examples/mcp) — a Computer MCP example:
+  one Code Mode `code` tool backed by a durable workspace, a Worker shell,
+  and a full Linux container.
 - [`examples/think`](examples/think) — a [`@cloudflare/think`](https://www.npmjs.com/package/@cloudflare/think)
   chat agent that uses the workspace as its working directory, reachable
   from a terminal.
